@@ -53,7 +53,7 @@ h1, h2, h3 {
 <div id='content'>
 <h1>新仙劍奇俠傳 流程筆記 (文字)</h1>
 
-更新：2018/08/23 v11
+更新：2018/08/24 v1
 
 <!-- -------------- --><hr />
 <h2>提示</h2>
@@ -132,6 +132,8 @@ h1, h2, h3 {
 [撿] <font color="cyan">700 文錢</font>：大廳
 [撿] <font color="cyan">1000 文錢</font>：客房 B (屏風後面)
 
+<h3>蘇州城東南</h3>
+
 [賣] <font color="cyan">賣光昂貴道具</font>
 
 <table style="width: 200px;">
@@ -190,46 +192,96 @@ h1, h2, h3 {
 
 [撿] <font color="cyan">化屍水</font>：林家入口燈籠
 [撿] <font color="cyan">聖靈符</font>：民房一右邊牆後
-[敵] 林月如 (劍) (450)：<font color="white">金剛符，蜂巢，F</font>
-[撿] 林家後院<font color="cyan">毒龍砂、雷靈符</font>、
-     月如房<font color="cyan">珍珠</font>、
-     林家前院<font color="cyan">大刀、長劍</font>、
-     林家後山<font color="cyan">大刀</font>
+[敵] 林月如 (劍) (450)：<font color="white">金剛符，蜂巢，F 到結束</font>
+
+<h3>林家堡</h3>
+
+[撿] <font color="cyan">毒龍砂、雷靈符</font>：林家後院
+[撿] <font color="cyan">珍珠</font>：月如房
+[撿] <font color="cyan">大刀、長劍</font>：林家前院
+[撿] <font color="cyan">大刀</font>：林家後山
+
 [戰] 從<font color="white">離開林家堡</font>開始，只要沒有特別註明，<font color="white">所有會遇敵的地圖全程驅魔香</font>
 [戰] 相同的，只要沒有特別註明，所有<font color="white">擋路的敵人都用十里香拉怪穿過</font>
 
 <!-- -------------- --><hr />
 <h2>隱龍窟</h2>
 
-[劇] <font color="white">逍遙裝上珍珠</font>
-[撿] <font color="cyan">毒龍膽</font>、3000 文錢
+[裝] <font color="white">逍遙裝上珍珠</font>
+[撿] <font color="cyan">毒龍膽、3000 文錢</font>
 [偷] 往前衝到淨衣符寶箱旁，腹蛇偷<font color="cyan">火蠶蠱 x 9</font>，<font color="white">真氣用完去左邊清小怪</font>
 [敵] <font color="gold">蛇妖男 Skip</font>
 [敵] 狐妖女 (1800)：<font color="white">迷魂香 + 火蠶蠱，
      火蠶蠱 x 8，對方補血就丟苗刀</font>
-[撿] 隱龍窟內殿<font color="cyan">神仙茶、化屍水</font>
+[撿] <font color="cyan">神仙茶、化屍水</font>：隱龍窟內殿
 
-白河鎮
-[劇] 一進村就<font color="cyan">先去借釣竿</font>，不然晚點就到奇怪地方了。<font color="gold">晚點順路回來還</font>
-[撿] 白河村
-     <font color="cyan">土靈符</font>，
-     韓醫仙家外
-     <font color="cyan">靈葫仙丹、毒龍砂</font>，
-     韓醫仙家
-     <font color="cyan">九陰散、靈山仙芝、靈葫仙丹</font>
+<!-- -------------- --><hr />
+<h2>白河鎮</h2>
+
+[劇] <font color="gold">先去借釣竿，晚點順路回來還</font>
+[撿] <font color="cyan">土靈符</font>：白河村
+[撿] <font color="cyan">靈葫仙丹</font>：韓醫仙家外
+[撿] <font color="cyan">九陰散、靈山仙芝、靈葫仙丹</font>：韓醫仙家
 [劇] 先收集藥材讓靈兒入隊，然後再來考慮巫術
 [賣] 物資賣掉，保留<font color="cyan">毒龍砂、化屍水、木劍、毒龍膽</font>各一
-[巫] <font color="gold">買一送一快速致富，目標約 40 萬</font>
-[巫] <font color="gold">商店異常進貨</font>，買<font color="cyan">毒龍砂 x 2、化屍水 x 1、毒龍膽 x 15</font>
-     道具   價格
-     <font color="cyan">毒龍膽</font> 2000 x 15 = 30000
-     <font color="cyan">化屍水</font> 1800 x 1  = 1800
-     <font color="cyan">毒龍砂</font> 1200 x 2  = 2400
-     Total              34200
-[買] 順便買<font color="cyan">驅魔香 x 25、十里香 x 10</font>
-     (Total：81400)
 
-黑水鎮
+[巫] <font color="gold">買一送一快速致富，目標約 40 萬</font>
+
+log(60000 / 20000) / log(1.5) = 2.7 次
+
+[巫] <font color="gold">異常進貨 mix 買一送一</font>
+
+<table style="width: 250px;">
+  <thead>
+  <tr>
+    <th>道具</th>
+    <th>價格</th>
+    <th>數量</th>
+    <th>總計</th>
+  </tr>
+  </thead>
+  <tbody align="center">
+  <tr>
+    <td><font color="cyan">毒龍膽</font></td>
+    <td>2000</td>
+    <td>8</td>
+    <td>16000</td>
+  </tr>
+  <tr>
+    <td><font color="cyan">化屍水</font></td>
+    <td>1800</td>
+    <td>1</td>
+    <td>1800</td>
+  </tr>
+  <tr>
+    <td><font color="cyan">毒龍砂</font></td>
+    <td>1200</td>
+    <td>1</td>
+    <td>1200</td>
+  </tr>
+  <tr>
+    <td><font color="cyan">驅魔香</font></td>
+    <td>3000</td>
+    <td>12</td>
+    <td>36000</td>
+  </tr>
+  <tr>
+    <td><font color="cyan">十里香</font></td>
+    <td>640</td>
+    <td>5</td>
+    <td>3200</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>58200</td>
+  </tr>
+  </tbody>
+</table>
+<!-- -------------- --><hr />
+<h2>黑水鎮</h2>
+
 [巫] <font color="gold">將軍塚硬塞進去</font>
 [敵] 鬼將軍前小怪：
      <font color="white">自吃毒龍膽 + 防禦 + 自吃毒龍膽，
@@ -260,6 +312,10 @@ h1, h2, h3 {
      煉完<font color="gold">確認物品列表中有金蠶王</font>，無誤存檔
 
 揚州城
+
+金蠶王 x 8
+
+
 [劇] 走進場景前先點驅魔香，否則小怪會主動走到擋路的位置
 [巫] <font color="gold">進貨 Bug，留下一步驟要購入的物品</font>
 [巫] <font color="gold">酒鋪</font>買：<font color="cyan">木劍 x 1、
@@ -287,8 +343,8 @@ h1, h2, h3 {
      化屍水 + 酒 → 隱蠱
 
 蟾蜍山
-[劇] 走進場景前先點驅魔香，遇到擋路直接大衛魔術
-[敵] 金蟾鬼母 (2200)、金蟾 (4200)：<font color="white">天罡乾坤</font>
+[劇] 走進場景前先點驅魔香，擋路者大衛魔術
+[敵] <font color="gold">金蟾鬼母 Skip</font>
 
 野店
 [撿] 店外<font color="cyan">一萬文錢</font>
@@ -324,6 +380,7 @@ h1, h2, h3 {
 [敵] 鎮獄明王(13723)：
      <font color="white">天罡阿奴 + 隱蠱 + 乾坤，
      (防禦 + 防禦 + 乾坤) x 2</font>
+[劇] 擋路者木劍取消
 [敵] 七星磐龍柱 (7350 ~ 10000)：
      <font color="white">天罡阿奴 + 防禦 + 乾坤，
      防禦 + 防禦 + 乾坤</font>
@@ -379,7 +436,7 @@ h1, h2, h3 {
 南紹王宮
 [劇] 上樓前要先<font color="gold">確保驅魔香效果已經停止</font>
 [敵] 殿前侍衛：<font color="white">酒神 8</font>
-[敵] 樹妖 (14180)：<font color="white">天罡 + 乾坤，(防禦 + 乾坤) x 2</font>
+[敵] 樹妖 (14180)：<font color="white">天罡 + 逍遙補 MP，酒神 9 + 乾坤</font>
 [敵] 拜月：
      <font color="white">自吃無影毒 + 毒龍膽逍遙 + 隱蠱，
      等復活 + 幫復 + 防禦，</font>
@@ -390,7 +447,8 @@ h1, h2, h3 {
 [劇] 進入最終戰前要先確保驅魔香效果已經停止
 [敵] 拜月水魔獸前小怪：
      <font color="white">天罡阿奴 + 自吃無影毒 + 乾坤，
-     自吃無影毒 + 自吃無影毒 + 毒龍膽逍遙，乾坤</font>
+     自吃無影毒 + 自吃無影毒 + 毒龍膽逍遙，
+     阿奴乾坤</font>
 [敵] 拜月水魔獸：<font color="gold">按一次 R</font>
 </div>
 

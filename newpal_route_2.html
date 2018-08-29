@@ -11,10 +11,18 @@
       href="https://fonts.googleapis.com/css?family=Inconsolata">
 
 <style>
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
 html, body {
   margin: 10 10 10 10;
   padding: 0;
   background-color: black;
+  font-family: 'Inconsolata', 'cwTeXYen', 'Noto Sans CJK TC', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  color: lemonchiffon;
 }
 
 #content {
@@ -22,8 +30,8 @@ html, body {
   display: block;
   white-space: pre-wrap;
   line-height: 1.5;
-  font-family: '細明體', 'Inconsolata';
   color: darkgrey;
+  font-weight: lighter;
 }
 
 table {
@@ -33,18 +41,7 @@ table {
 h1, h2, h3 {
   color: white;
   display: inline;
-}
-
-.item {
-  color: cyan;
-}
-
-.drama {
-  color: gold;
-}
-
-.boss {
-  color: white;
+  font-weight: normal;
 }
 </style>
 </head>
@@ -54,7 +51,7 @@ h1, h2, h3 {
 <div id='content'>
 <h1>新仙劍奇俠傳 流程筆記 (文字)</h1>
 
-更新：2018/08/27 v2
+更新：2018/08/29 v1
 
 <!-- -------------- --><hr />
 <h2>提示</h2>
@@ -96,7 +93,7 @@ h1, h2, h3 {
 [撿] <font color="cyan">200 文錢</font>：洪大夫家
 [撿] <font color="cyan">靈山仙芝</font>：與洪大夫對話
 [撿] <font color="cyan">酒</font>：客棧旁邊
-[買] <font color="cyan">十里香 x 1</font>
+[買] <font color="cyan">十里香 * 1</font>
 
 <!-- -------------- --><hr />
 <h2>十里坡</h2>
@@ -111,7 +108,8 @@ h1, h2, h3 {
 <font color="white">御劍術 + 觀音咒，
 之後仙術硬上，HP 低落時記得補血</font>
 
-[敵] 苗人頭領 (800)，苗人嘍囉 (360) * 2：
+[敵] 苗人頭領 (800)，
+     苗人嘍囉 (360) * 2：
 <font color="white">逍遙御劍術，靈兒金剛咒 x 2 後雷咒</font>
   
 [裝] 打開<font color="cyan">包袱、手卷</font>，靈兒裝備<font color="cyan">玉鐲</font>
@@ -121,7 +119,10 @@ h1, h2, h3 {
 
 <h3>蘇州城外</h3>
 [劇] 下船馬上點十里香
+
 [敵] <font color="gold">林月如 (鞭) Skip</font>
+<a href="https://clips.twitch.tv/LivelyBelovedToadBIRB">「靈兒退出！靈兒加入！」by FinalMethod</a>
+
 [撿] <font color="cyan">蜂巢</font>：月如樹後
 [撿] <font color="cyan">贖魂燈</font>：左邊石像
 
@@ -185,7 +186,8 @@ h1, h2, h3 {
 </table>
 <h3>蘇州城東南</h3>
 [巫] <font color="gold">穿越買一送一，目標約 4 萬</font>
-log(40000 / 12000) / log(1.5) = 2.97 次
+log(40000 / 12000) / log(1.5)
+= 2.97 次
 
 [巫] <font color="gold">穿越買一送一</font>，買：
 
@@ -262,8 +264,8 @@ log(40000 / 12000) / log(1.5) = 2.97 次
 [撿] <font color="cyan">孟婆湯、毒龍膽、3000 文錢</font>
 [敵] <font color="gold">蛇妖男 Skip</font>
 [敵] 狐妖女 (1800)：
-<font color="white">迷魂香 + 芙蓉刀，
-芙蓉刀 * 8，對方補血就丟苗刀</font>
+<font color="white">迷魂香 + 金剛符消遙，
+芙蓉刀 * 9，對方補血就丟苗刀</font>
 [撿] <font color="cyan">神仙茶、化屍水</font>：隱龍窟內殿
 
 <!-- -------------- --><hr />
@@ -274,7 +276,8 @@ log(40000 / 12000) / log(1.5) = 2.97 次
 [撿] <font color="cyan">火蠶蠱</font>：入口處樹後
 
 [巫] <font color="gold">穿越買一送一，目標約 20 萬</font>
-log(200000 / 40000) / log(1.5) = 3.97 次
+log(200000 / 40000) / log(1.5)
+= 3.97 次
 
 [巫] <font color="gold">穿越異常買一送一，保留要購入的物品</font>，買：
 
@@ -394,7 +397,7 @@ R 到結束</font>
 [撿] <font color="cyan">煉蠱皿</font>
 [合] <font color="cyan">赤蠍粉 * 1</font>
 毒龍砂 + 十里香 → 赤蠍粉
-[合] <font color="cyan">隱蠱 * 2</font>
+[合] <font color="cyan">隱蠱 * 4</font>
 化屍水 + 酒 → 隱蠱
 [合] <font color="cyan">金蠶王 * 9</font>
 (1) 孟婆湯 + 神仙茶 → 金蠶王
@@ -406,11 +409,22 @@ R 到結束</font>
 
 [劇] 走進場景前先點驅魔香，否則小怪會主動走到擋路的位置
 [戰] <font color="white">月如吃金蠶王到 Lv 16</font>
+
 [敵] 姬三娘 (1600)：<font color="white">乾坤一擲</font>
+
 [劇] 中間有一隻擋路的，<font color="gold">雙香拉怪</font>通過
+
 [敵] 姬三娘 (1600)：<font color="white">乾坤一擲</font>
+
 [撿] <font color="cyan">騰雲符</font>：屋頂
-[敵] 姬三娘 (1600)：<font color="white">毒龍砂 * 4</font>
+[撿] <font color="cyan">隱蠱、5000 文錢與其他道具</font>：
+姬宅密室的<font color="cyan">寶箱</font> (2、4、5、7、9、11)
+
+[敵] 姬三娘 (1600)：<font color="white">
+隱蠱 + 毒龍砂，毒龍砂 + R，R</font>
+使用物品：<font color="cyan">毒龍砂 * 4，隱蠱 * 1</font>
+
+[劇] <font color="gold">揚州休息站，確認物資是否充足</font>
 
 <!-- -------------- --><hr />
 <h2>蟾蜍山</h2>
@@ -428,10 +442,19 @@ R 到結束</font>
 
 [撿] <font color="cyan">蠟燭、檀香、符紙</font>：雲姨房間
 
-[巫] <font color="gold">穿越買一送一，目標約 60 萬</font>
-log(600000 / 100000) / log(1.5) = 4.42 次
+[巫] <font color="gold">穿越買一送一，目標約 55 ~ 60 萬</font>
+log(600000 / 120000) / log(1.5)
+= 3.97 次
 
-[巫] <font color="gold">穿越異常買一送一，保留要購入的物品</font>，買：
+[巫] <font color="gold">第一次購入大量疾風靴後，完成以下劇情</font>：
+(1) <font color="gold">務必要剩下 51 元以上</font>；
+(2) 直接把剩下的錢塞給藥店邊乞丐，付兩次錢，第三次選否，被叫回尚書府；
+之後就可以到當舖賣掉複製物品，繼續賺錢
+
+[巫] <font color="gold">穿越異常買一送一 Setup</font>
+[敵] 林天南：<font color="white">偷，防禦，隱蠱</font>
+
+[巫] <font color="gold">穿越異常買一送一</font>，買：
 
 <table style="width: 250px;">
   <thead>
@@ -444,28 +467,10 @@ log(600000 / 100000) / log(1.5) = 4.42 次
   </thead>
   <tbody align="center">
   <tr>
-    <td><font color="cyan">毒龍膽</font></td>
-    <td>2000</td>
-    <td>3</td>
-    <td>6000</td>
-  </tr>
-  <tr>
-    <td><font color="cyan">驅魔香</font></td>
-    <td>3000</td>
-    <td>35</td>
-    <td>105000</td>
-  </tr>
-  <tr>
-    <td><font color="cyan">十里香</font></td>
-    <td>640</td>
-    <td>35</td>
-    <td>22400</td>
-  </tr>
-  <tr>
     <td><font color="cyan">赤蠍粉</font></td>
     <td>700</td>
-    <td>15</td>
-    <td>10500</td>
+    <td>4</td>
+    <td>2800</td>
   </tr>
   <tr>
     <td><font color="cyan">騰雲符</font></td>
@@ -474,16 +479,40 @@ log(600000 / 100000) / log(1.5) = 4.42 次
     <td>3900</td>
   </tr>
   <tr>
+    <td><font color="cyan">十里香</font></td>
+    <td>640</td>
+    <td>24</td>
+    <td>15360</td>
+  </tr>
+  <tr>
+    <td><font color="cyan">驅魔香</font></td>
+    <td>3000</td>
+    <td>35</td>
+    <td>105000</td>
+  </tr>
+  <tr>
     <td><font color="cyan">金蠶王</font></td>
     <td>9000</td>
     <td>45</td>
     <td>405000</td>
   </tr>
+    <tr>
+    <td><font color="cyan">毒龍膽</font></td>
+    <td>2000</td>
+    <td>2</td>
+    <td>4000</td>
+  </tr>
   <tr>
     <td><font color="cyan">酒</font></td>
     <td>60</td>
+    <td>10</td>
+    <td>600</td>
+  </tr>
+  <tr>
+    <td><font color="cyan">還魂香</font></td>
+    <td>550</td>
     <td>5</td>
-    <td>300</td>
+    <td>2750</td>
   </tr>
   <tr>
     <td></td>
@@ -493,24 +522,23 @@ log(600000 / 100000) / log(1.5) = 4.42 次
   </tr>
   </tbody>
 </table>
-<font color="white">騰雲符 1300 * 6：逃跑成功率
-赤蠍粉 700 * 30：無影毒
-十里香 640 * (30 + 20 + 20)：無影毒 + 跑地圖用
-金蠶王 9000 * 90：逍遙 Lv 99
-酒 60 * 9：酒神
+<font color="white">赤蠍粉 700 * 8：無影毒
+騰雲符 1300 * 6：逃跑成功率
+十里香 640 * (8 + 40)：無影毒 + 跑地圖用
 驅魔香 3000 * 70：跑地圖用
-毒龍膽 2000 * N：我願意餵你 Setup</font>
+金蠶王 9000 * 90：逍遙 Lv 99
+毒龍膽 2000 * 3：我願意餵你 Setup
+酒 60 * (9 + 10)：酒神 + 玉菩提
+還魂香 * 10：玉菩提</font>
 
-[合] <font color="cyan">無影毒 * 30</font>
+[合] <font color="cyan">無影毒 * 8</font>
 赤蠍粉 + 十里香 → 無影毒
+[合] <font color="cyan">玉菩提 * 10</font>
+酒 + 還魂香 → 玉菩提
 
-[戰] <font color="white">逍遙吃金蠶王到 Lv 99</font>
+[戰] <font color="white">逍遙吃玉菩提增加真氣上限、金蠶王到 Lv 90</font>
 [戰] <font color="white">騰雲符給逍遙用三次、月如兩次、靈兒一次</font>
 
-[買] 吃飯後逛街時直接買滿，<font color="gold">務必要剩下 51 元以上</font>
-[劇] 直接把剩下的錢塞給藥店邊乞丐，付兩次錢，第三次選否，被叫回尚書府
-[賣] <font color="gold">把身上東西賣光，身上應該會有十萬以上</font>
-[敵] 林天南：<font color="white">偷，防禦，隱蠱</font>
 [劇] <font color="salmon">小心跟雲姨對話，千萬別拿三萬塊</font>
 [巫] <font color="gold">身上的錢都拿去武器店致富一次</font> (手動用掉 Bug 就不會擔心出其他 Bug)
 [劇] 去找道士，劇情後立刻把道具給酒劍仙
@@ -540,22 +568,13 @@ log(600000 / 100000) / log(1.5) = 4.42 次
 [巫] 全程估計驅魔香時間，<font color="gold">每次傳送時木劍取消維持隱形</font>
 [巫] 姜清 (3400)：穿牆無視
 [巫] 天鬼皇 (10000)：穿牆無視，雖然他待會會和天書一起下來裝熟
+[撿] <font color="cyan">靈心珠</font>：鎖妖塔劍柱左下
 
-[巫] <font color="gold">我願意餵你 Setup</font>
-[敵] 鎮獄明王前的芒刺鬼 (1280)：
-<font color="white">自吃無影毒 + 毒龍膽逍遙 + 防禦，
-靈兒自吃無影毒 + 毒龍膽靈兒，
-F</font>
-使用物品：
-<font color="cyan">無影毒 * 2，毒龍膽 * 2</font>
+[敵] 鎮獄明王 (13723)：<font color="white">天罡 + D + F，酒神 1</font>
 
-[敵] 鎮獄明王 (13723)：<font color="white">按一次 R</font>
-使用物品：<font color="cyan">無影毒 * 2</font>
-
-[劇] 擋路者木劍取消
-
-[敵] 七星磐龍柱 (7350 ~ 10000)：<font color="white">按一次 R</font>
-使用物品：<font color="cyan">無影毒 * 14</font>
+[敵] 七星磐龍柱 (7350 ~ 10000)：
+(1) <font color="white">天罡 + D + F，D + D + F</font>
+(2) <font color="white">天罡 + 五氣朝元 + F，R (之後戰鬥都直接 R * 2)</font>
 
 [巫] 打最後一條龍之前先開十里香，準備<font color="gold">木劍取消跳過月如回憶</font>
 [撿] 先撿聖姑家門外<font color="cyan">香蕉、山神石</font>
@@ -564,7 +583,7 @@ F</font>
 <h2>神木林</h2>
 
 [巫] 神木林<font color="gold">只用十里香拉怪、木劍取消抓鳥</font>，原則上可以避開所有戰鬥
-[敵] 金翅鳳凰 (3300)：<font color="white">酒神 1</font>
+[敵] 金翅鳳凰 (3300)：<font color="white">酒神 2</font>
 
 <!-- -------------- --><hr />
 <h2>樹洞通道</h2>
@@ -576,6 +595,7 @@ F</font>
 
 <h3>白族會議場</h3>
 [劇] 找族長抬槓
+[買] <font color="cyan">無影神針 * 2，豹牙手環 * 1</font>
 
 <h3>麒麟洞</h3>
 [敵] 火眼麒麟 (4900)：<font color="white">天罡乾坤</font>
@@ -586,28 +606,32 @@ F</font>
 [劇] 拿天蛇杖給巫后之後<font color="gold">立刻存檔</font><font color="salmon">避免水上飄</font>
 
 <h3>十年前水底迷宮</h3>
-[敵] 水魔獸 (8600)：<font color="white">酒神 2 + 雷神</font>
+[裝] 巫后戴上<font color="cyan">豹牙手環</font>
+[敵] 水魔獸 (8600)：<font color="white">酒神 3</font>
 [劇] 第二章地圖水魔獸先上再下可以躲過
 
 <h3>十年前南紹城外</h3>
-[敵] 石長老 (9000)：<font color="white">酒神 3，F</font>
+[戰] 吃<font color="cyan">金蠶王</font>升一級
+[敵] 石長老 (9000)：<font color="white">酒神 4</font>，無影神針
 
 <h3>十年前夢境羅剎洞</h3>
-[敵] 羅剎鬼婆 (8000)：<font color="white">酒神 4</font>
-[敵] 林月如 (5500)：<font color="white">酒神 5</font>
+[戰] 吃<font color="cyan">金蠶王</font>升一級
+[敵] 羅剎鬼婆 (8000)：<font color="white">酒神 5</font>
+[敵] 林月如 (5500)：<font color="white">酒神 6</font>
 
 <h3>十年前盛漁村</h3>
 [劇] <font color="salmon">鳳紋手絹會出問題</font>，請務必在市集碼頭<font color="gold">跟靈月講到話</font>才使用，使用前請存檔
+[巫] 拿到水靈珠後點驅魔香，離開十里坡瞬間木劍取消，直接跟商人講話登船
 
 <!-- -------------- --><hr />
 <h2>大理城</h2>
 
 [劇] 回劇找聖姑接生，準備去試煉窟外
-[戰] 蓋羅嬌 (7500)：<font color="white">酒神 6</font>
+[戰] 蓋羅嬌 (7500)：<font color="white">酒神 7</font>
 [劇] <font color="gold">在試煉窟外一個草叢 S/L 瞬間取得大量傀儡蠱卵</font>
 [合] <font color="cyan">蠱卵煉化傀儡蟲滿 36 隻</font>
 [劇] 直衝女媧神殿，<font color="gold">不觸發劇情直接祈雨，左下右上風土雷火</font>，最後<font color="gold">中間放水靈珠</font>
-[敵] 地魔獸 (5570)：<font color="white">酒神 7</font>
+[敵] 地魔獸 (5570)：<font color="white">酒神 8</font>
 
 <!-- -------------- --><hr />
 <h2>無底深淵</h2>
@@ -619,11 +643,12 @@ F</font>
 <h2>南紹王宮</h2>
 
 [劇] 上樓前要先<font color="gold">確保驅魔香效果已經停止</font>
+[戰] 吃<font color="cyan">金蠶王</font>升一級
 
-[敵] 殿前侍衛：<font color="white">酒神 8</font>
+[敵] 殿前侍衛：<font color="white">天罡 + F + F</font>
 
 [敵] 樹妖 (14180)：
-<font color="white">天罡 + 補滿逍遙 MP，酒神 9 + 乾坤</font>
+<font color="white">天罡 + 乾坤，酒神 9 + 無影神針</font>
 
 [敵] 拜月：
 <font color="white">自吃無影毒 + 毒龍膽逍遙 + 隱蠱，
